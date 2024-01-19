@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,5 +11,96 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <h1>Hello People</h1>
+    <h3>This is Daisy UI Tutorial</h3>
+    <button class="btn btn-secondary uppercase">Responsive</button>
+
+    <button class="btn btn-outline btn-info">Info</button>
+    <button class="btn btn-outline btn-success">Success</button>
+    <button class="btn btn-outline btn-warning">Warning</button>
+    <button class="btn btn-outline btn-error">Error</button>
+
+    <button class="btn btn-square">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M6 18L18 6M6 6l12 12"
+        />
+      </svg>
+
+      <button class="btn btn-circle btn-outline">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+    </button>
+    <hr />
+    <section>
+      <h1 class="text-3xl text-purple-600">Accordion</h1>
+      <div class="grid grid-cols-2 justify-center items-center">
+        <div class="accordion-container">
+          <div class="collapse collapse-plus bg-purple-500 text-white">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">Target-01</div>
+            <div class="collapse-content">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                ullam quaerat doloremque incidunt sapiente nihil id
+                exercitationem libero ea vero, minus consequuntur quam,
+                laboriosam minima! Exercitationem nulla molestias soluta quidem.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-purple-500 text-white">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">Target-02</div>
+            <div class="collapse-content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis dolorum tempore nemo ipsam iure incidunt facilis
+                eveniet laborum laboriosam sunt, alias quaerat ad dolore odit
+                exercitationem, saepe eaque? Corporis tempora quis repellat
+                omnis illum praesentium porro quae quo suscipit aliquid.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-purple-500 text-white">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">Target-03</div>
+            <div class="collapse-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+                repellendus, repudiandae tenetur ullam architecto incidunt nemo
+                sunt tempore, eos deserunt, excepturi quo voluptate doloremque
+                deleniti perferendis! Labore ullam iure quasi accusamus quaerat
+                esse. Reprehenderit nisi ducimus iste praesentium dolores
+                recusandae natus adipisci atque? Sint molestias deserunt, a
+                assumenda reiciendis iure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
